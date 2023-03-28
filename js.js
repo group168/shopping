@@ -43,12 +43,7 @@ itemsliderbar.forEach(function (menu, index) {
     menu.classList.toggle("block");
   });
 });
-const itemsliderbar = document.querySelectorAll(".cartegory-left-li");
-itemsliderbar.forEach(function (menu, index) {
-  menu.addEventListener("click", function () {
-    menu.classList.toggle("block");
-  });
-});
+
 //--------------------------------------PRODUCT----------------------
 // const bigImg = document.querySelector(".product-content-left-big-img img")
 // const smalImg =  document.querySelectorAll(".product-content-left-small-img img")
