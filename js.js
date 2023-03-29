@@ -43,7 +43,6 @@ itemsliderbar.forEach(function (menu, index) {
     menu.classList.toggle("block");
   });
 });
-
 //--------------------------------------PRODUCT----------------------
 // const bigImg = document.querySelector(".product-content-left-big-img img")
 // const smalImg =  document.querySelectorAll(".product-content-left-small-img img")
