@@ -43,7 +43,13 @@ itemsliderbar.forEach(function (menu, index) {
     menu.classList.toggle("block");
   });
 });
-
+cnst bigImg = docuent.queryector(".pruct-content-left-big-img img")
+cont smalImg =  docuent.querySelectorAll(".product-content-left-small-img img")
+smalImg.forEach(fction(imgItem,X){
+  imItem.adEventListener("click",nction(){
+    bigImg.src = imgtem.src
+  })
+})
 //--------------------------------------PRODUCT----------------------
 // const bigImg = document.querySelector(".product-content-left-big-img img")
 // const smalImg =  document.querySelectorAll(".product-content-left-small-img img")
